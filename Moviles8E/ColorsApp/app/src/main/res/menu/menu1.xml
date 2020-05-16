@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/icHelp"
+        android:title="@string/ic_help"
+        android:icon="@drawable/ic_help"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/icTransparente"
+        android:title="@string/ic_transparente"
+        android:icon="@drawable/ic_transparente"
+        app:showAsAction="ifRoom" />
+
+
+    <item android:id="@+id/iteColors"
+        android:title="@string/lbl_colors"
+    >
+        <menu>
+            <item android:id="@+id/iteTransparent"
+                android:title="@string/lbl_transparent" />
+            <item android:id="@+id/iteSemitransparent"
+                android:title="@string/lbl_semitransparent" />
+            <item android:id="@+id/iteOpaque"
+                android:title="@string/lbl_opaque" />
+            <item android:id="@+id/iteBlack"
+                android:title="@string/lbl_black" />
+            <item android:id="@+id/iteWhite"
+                android:title="@string/lbl_white" />
+            <item android:id="@+id/iteRed"
+                android:title="@string/lbl_red" />
+            <item android:id="@+id/iteGreen"
+                android:title="@string/lbl_green" />
+            <item android:id="@+id/iteBlue"
+                android:title="@string/lbl_blue" />
+            <item android:id="@+id/iteCyan"
+                android:title="@string/lbl_cyan" />
+            <item android:id="@+id/iteMagenta"
+                android:title="@string/lbl_magenta" />
+            <item android:id="@+id/iteYellow"
+                android:title="@string/lbl_yellow" />
+        </menu>
+    </item>
+
+
+    <item android:id="@+id/iteReset"
+        android:title="@string/lbl_reset1"/>
+    <item android:id="@+id/iteAboutof"
+        android:title="@string/lbl_aboutof" />
+    <item android:id="@+id/iteClose"
+        android:title="@string/lbl_close"/>
+
+
+</menu>

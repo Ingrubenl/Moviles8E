@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Market</string>
+    <string name="lblEmail">E-mail</string>
+    <string name="lblPass">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_signup">Sign up</string>
+    <string name="lblActHome">Home</string>
+    <string name="lblActRegister">Register user</string>
+</resources>
